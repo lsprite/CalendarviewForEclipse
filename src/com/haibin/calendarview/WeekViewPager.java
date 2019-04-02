@@ -83,15 +83,15 @@ public class WeekViewPager extends ViewPager {
 	}
 
 	/// 禁止滑动
-	@Override
-	public boolean onInterceptTouchEvent(MotionEvent arg0) {
+	// @Override
+	// public boolean onInterceptTouchEvent(MotionEvent arg0) {
 		// TODO Auto-generated method stub
 		// if (isScroll){
 		// return super.onInterceptTouchEvent(ev);
 		// }else{
-		return false;
+//		return false;
 		// }
-	}
+//	}
 
 	void notifyDataSetChanged() {
 		mWeekCount = Util.getWeekCountBetweenYearAndYear(mDelegate.getMinYear(), mDelegate.getMinYearMonth(),

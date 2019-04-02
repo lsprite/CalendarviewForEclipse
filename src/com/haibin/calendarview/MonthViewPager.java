@@ -83,7 +83,7 @@ public class MonthViewPager extends ViewPager {
 				}
 
 				if (!calendar.isCurrentMonth()) {
-					// mDelegate.mSelectedCalendar = calendar;
+					mDelegate.mSelectedCalendar = calendar;
 				} else {
 					mDelegate.mSelectedCalendar = mDelegate.createCurrentDate();
 				}

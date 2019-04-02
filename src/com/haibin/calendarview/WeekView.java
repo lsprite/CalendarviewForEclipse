@@ -221,8 +221,8 @@ public abstract class WeekView extends View implements View.OnClickListener {
 		mSelectedPaint.setStyle(Paint.Style.FILL);
 		mSelectedPaint.setStrokeWidth(2);
 
-		mPaddingLeft = Util.dipToPx(context, 8);
-		mPaddingRight = Util.dipToPx(context, 8);
+		mPaddingLeft = Util.dipToPx(context, 0);
+		mPaddingRight = Util.dipToPx(context, 0);
 
 		setOnClickListener(this);
 	}
